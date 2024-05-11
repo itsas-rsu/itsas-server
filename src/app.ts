@@ -47,7 +47,8 @@ const corsOptions={
     `https://127.0.0.1:${process.env.SSL_PORT}`,
     `https://127.0.0.1:8080`,
     `https://localhost:8080`,
-    'https://itsas-system.github.io'
+    'https://itsas-rsu.github.io',
+    'https://itsas.store/'
   ],
   credentials:true
 }
