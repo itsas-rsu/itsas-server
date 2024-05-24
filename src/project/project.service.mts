@@ -73,7 +73,7 @@ class Service {
     return db.get(`${verifiedToken.ulid}:project:${projectId[2]}`)
       .catch( err =>
         Promise.reject({
-          error: `Не могу найти проект: ${err}`,
+          error: `Не удается найти проект: ${err}`,
           status: 403
         })
       )
